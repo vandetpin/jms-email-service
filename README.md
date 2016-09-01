@@ -7,7 +7,7 @@
   </pre>
 - add below text to the follow the config file
    <br />
-   ```xml
+   ```
    <queue name="emailQueue">
       <entry name="/queue/emailQueue"/>
    </queue>
@@ -16,12 +16,12 @@
 http://hornetq.jboss.org/downloads.html
 
 ### start the jms service ###
-<code>
+<pre>
 $cd hornetq-2.4.0.Final/bin
 $sh run.sh
-</code>
+</pre>
 
-<code>
 ### run your jms application service ###
+<pre>
 mvn exec:java -Dexec.mainClass="com.findme.email.server.jms.JMSEmailReceiverApp"
-</code>
+</pre>
