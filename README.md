@@ -1,6 +1,6 @@
 ## JMS Email Service ##
 
-### configuration ###
+### JMS Server configuration ###
 - go to config file
   <pre>
   hornetq-2.4.0.Final/config/stand-alone/non-clustered/hornetq-jms.xml 
